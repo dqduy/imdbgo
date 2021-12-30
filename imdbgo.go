@@ -10,6 +10,6 @@ func NewIMDb() *IMDb {
 	return &IMDb{""}
 }
 
-func (o *IMDb) hello() {
+func (o *IMDb) Hello() {
 	fmt.Println("Hello")
 }
